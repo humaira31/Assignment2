@@ -1,0 +1,138 @@
+/*work sans font*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/*shared item*/
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/*nav-bar section*/
+.section-title {
+    display: flex;
+    justify-content: space-around;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.nav-icon1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    color: #0B0223;
+}
+
+.nav-icon1 img {
+    width: 86.041px;
+    height: 40px;
+
+}
+
+.span-g {
+    color: rgb(232, 69, 123);
+}
+
+.follow {
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    background: rgba(11, 2, 35, 0.10);
+    width: 290px;
+    height: 56px;
+}
+
+.follow img {
+    width: 33.916px;
+    height: 24px;
+}
+
+.nav-text {
+    display: flex;
+}
+
+.nav-text li {
+    list-style: none;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.nav-text a {
+    text-decoration: none;
+    text-align: center;
+    color: #3C354F;
+}
+
+.nav-link ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+/*header part*/
+.banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mobile screen*/
+
+/*@media screen and (max-width: 576px) {
+    .section-title{
+        flex-direction: column;
+       
+
+        
+    }
+
+    .nav-icon1 {
+        justify-content: center;
+      
+    }
+
+    .nav-text{
+        flex-direction: column;
+        
+    }
+   
+}*/
