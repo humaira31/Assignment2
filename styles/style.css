@@ -4,6 +4,7 @@
 /*shared item*/
 * {
     font-family: 'Work Sans', sans-serif;
+
 }
 
 
@@ -83,42 +84,25 @@
     color: #0B0223;
     font-size: 48px;
     font-weight: 600;
-    text-align: center;
+
 }
 
 .goat {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #b8178b;
     font-size: 95px;
     font-weight: 800;
     margin-top: 0px;
-    text-align: center;
-}
-
-.click,
-.downld,
-.supported {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
 
 }
 
-.click img,
-.downld img,
-.supported img {
-    width: 24px;
-    height: 24px;
-}
+.click {
 
-.click p,
-.downld p,
-.supported p {
+
+    color: #534C64;
     font-size: 20px;
     font-weight: 500;
-    color: #534C64;
+    text-align: left;
+
 }
 
 .sign {
@@ -141,16 +125,61 @@
     border-color: #4EC5F7;
 }
 
-.btn-banner{
+.btn-banner {
     display: flex;
     gap: 10px;
 }
 
-/*.banner-text{
-    background-image: url('Group 14.png');
+.banner-text {
+    background-image: url('../images/Group 14.png');
+    width: 100%;
+    height: 700px;
+    background-size: contain;
+    padding-left: 200px;
+
+
+}
+
+/*video section*/
+.video h1 {
     text-align: center;
-    padding: 100px 20px;
-}*/
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.funny {
+    color: #b8178b;
+}
+
+.video-text {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.video-img {
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+
+}
+
+.video-img1 img,
+.video-img2 img,
+.video-img3 img,
+.video-img4 img {
+    width: 342px;
+    height: 400px;
+}
+
+.video-img img:hover {
+    border: 2px solid palevioletred;
+    border-radius: 8px;
+    border-color: #FF42A5;
+}
 
 
 
@@ -190,8 +219,8 @@
 
 /*mobile screen*/
 
-/*@media screen and (max-width: 576px) {
-    .section-title{
+@media screen and (max-width: 576px) {
+    .section-title, .banner{
         flex-direction: column;
        
 
@@ -208,4 +237,4 @@
         
     }
    
-}*/
+}
